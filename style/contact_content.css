@@ -1,0 +1,217 @@
+ @font-face {
+    font-family: myFirstFont;
+    src: url(shabnam/Shabnam-light.woff);
+} 
+#head{
+	color: #C4C0C0;
+}
+.contact{
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 50px;
+	font-family: myFirstFont;
+	text-align: right;
+	color:rgb(112,112,112);	
+}
+.contact_cont{
+	display: flex;
+	margin-left: 7%;
+	margin-right: 7%;
+	padding-left: 25%;
+	text-align: right;
+	margin-top: 20px;
+}
+#follow{
+	
+	font-family: myFirstFont;
+	text-align: right;
+	color: gray;	
+	text-align: right;
+	border-right: calc;
+	border-right-color:  1px;
+	margin-right: 5px;
+	padding-right: 5px;
+	border-right: 1px solid #EFEFEF ;
+}
+#number, #email {
+	flex: 2 0 auto;
+	font-family: myFirstFont;
+	font-size: 14px;
+	line-height: 130%;
+	color: gray;
+	text-align: right;
+	margin-left: 20px;
+	padding-top: 5px;
+	
+}
+#num_pic{
+	background: url('../pic/auricular-phone-symbol-in-a-circle.png') ;
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 110px;
+	height: 70px;
+	margin-right: 40px;
+	margin-left: 10px;
+}
+#mail_pic{
+	background: url('../pic/capture3.png') ;
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 110px;
+	height: 70px;
+	margin-left: 10px;
+}
+.content3{
+	display: flex;
+	margin-top: 50px;	
+	margin-left: 7%;
+	margin-right: 7%;
+}
+#bold{
+	color: #C4C0C0;
+}
+#text_map{
+	text-align: right;
+	color: rgb(112,112,112);
+	font-family: myFirstFont;
+}
+#google_map{
+	background: url('../pic/map.png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 1000px;
+	height: 400px;
+	background-size: 100% 100%;
+}
+.holiday{	
+	margin-top: 50px;	
+	margin-left: 7%;
+	margin-right: 7%;
+	border-radius: 6px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 10px;	
+	padding-left: 10px;
+	border:none;
+	background-color: rgb(186,103,103);
+	color: white;
+	text-align: right;
+	font-size: 18px;
+	font-family: myFirstFont;	
+}
+.form1{
+	margin-top: 10px;	
+	margin-left: 7%;
+	margin-right: 7%;
+	border:none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 10px;	
+	padding-left: 10px;
+	color: gray;
+	text-align: right;
+	font-size: 18px;
+	font-family: myFirstFont;
+	line-height: 50%;
+}
+.form2{
+	margin-top: 20px;	
+	margin-left: 7%;
+	margin-right: 7%;
+	color: #445de7;
+	box-shadow: 2px 22px 40px 0.5px #DBDBDB;
+	border-radius: 4px;
+}
+#header{
+	font-family: myFirstFont;
+	text-align: right;		
+	margin-right: 3%;
+	padding-top: 15px;
+}
+#inputs{
+	display: flex;
+	color:#445de7;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
+#name ,#email_form, #adress{
+	flex :1 0 auto;
+	text-align: right;
+	font-family: myFirstFont;
+	font-size: 12px;	
+}
+#name_input ,#email_input,#adress_input{
+	
+	border-radius: 16px;
+	background-color:  #f0f2f7;
+	border: none;
+	width: 85%;
+	height: 70%;
+	padding-left: 14px;
+	color: gray;	
+}
+#name_input:hover ,#name_input:focus,#email_input:hover,#email_input:focus,#adress_input:hover,#email_input:focus{
+	border-radius: 16px;
+	background-color:  #f0f2f7;
+	border: solid  #445de7 1px;
+	width: 85%;
+	height: 70%;
+	padding-left: 14px;
+	color: gray;	
+}
+#pm{
+	font-family: myFirstFont;
+	font-size: 12px;
+	text-align: right;		
+	margin-right: 5%;
+	padding-top: 25px;
+}
+#pm2{	
+	margin-right: 5%;
+	margin-left: 5%;
+	border-radius: 8px;
+	background-color:  #f0f2f7;
+	border: none;
+	height: 150px;
+	font-family: myFirstFont;
+	font-size: 15px;	
+	color: gray;
+}
+#pm2:hover,#pm2:focus{	
+	margin-right: 5%;
+	margin-left: 5%;
+	border-radius: 8px;
+	background-color:  #f0f2f7;
+	border: solid  #445de7 1px;
+	height: 150px;
+	font-family: myFirstFont;
+	font-size: 15px;	
+	color: gray;
+}
+#submit{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 15px;
+	padding-bottom: 15px;
+}
+#submit_button{
+	font-family: myFirstFont;
+	font-size: 15px;
+	border-radius: 16px;
+	border:solid  #445de7 2px;
+	background-color: white;
+	width:20%;
+	height:35px;
+  color:  #445de7;
+}
+#submit_button:hover{
+	font-family: myFirstFont;
+	font-size: 15px;
+	border-radius: 16px;
+	border:solid  #2B39FC 2px;
+	background-color: #445de7;
+	width:20%;
+	height:35px;
+  color: white ;
+}

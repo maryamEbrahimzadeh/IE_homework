@@ -1,0 +1,109 @@
+ @font-face {
+    font-family: myFirstFont;
+    src: url(shabnam/Shabnam-light.woff);
+} 
+.navbar{
+	margin-right: 17%;
+	margin-left: 23%;
+	display: flex;
+  
+}
+.topic{
+	flex: 1 0 auto;
+	font-family: myFirstFont;
+	color: rgb(112,112,112);
+	text-decoration: none;
+}
+.topic:hover{
+	flex: 1 0 auto;
+	font-family: myFirstFont;
+	color: #445de7;
+	text-decoration: underline ;
+}
+
+.nav2{
+	display: flex;
+	margin-right: 7%;
+	margin-left: 7%;	
+
+}
+.b{
+	flex: 1 0 auto;
+	font-family: myFirstFont;
+	height: 120px;
+	width: 170;
+	margin-right:3px;
+	margin-left: 3px;
+	border-radius: 8px;
+	border: 1px solid rgb(112,112,112);
+	padding-top: 90px;
+	
+	
+}
+
+
+
+#b1{
+	background: url('../pic/chat.png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#b2{
+	background: url('../pic/black-envelope.png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#b3{
+	background: url('../pic/question.png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#b4{
+	background: url('../pic/arrow-point-to-right.png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#b5{
+	background: url('../pic/man-user.png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#b6{
+	background: url('../pic/locked-padlock.png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.b:hover{
+	border-color: #445de7 ;
+	color: #445de7 ;
+}
+#b1:hover{
+	background: url('../pic/chat(1).png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#b2:hover{
+	background: url('../pic/black-envelope(1).png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#b3:hover{
+	background: url('../pic/question(1).png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#b4:hover{
+	background: url('../pic/arrow-point-to-right(1).png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#b5:hover{
+	background: url('../pic/man-user(1).png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#b6:hover{
+	background: url('../pic/locked-padlock(1).png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+}

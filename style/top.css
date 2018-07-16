@@ -1,0 +1,116 @@
+ @font-face {
+    font-family: myFirstFont;
+    src: url(shabnam/Shabnam-light.woff);
+} 
+.top_bar{
+	display: flex;
+}
+.top_bar_center{
+	color: rgb(112,112,112);
+	flex:5 0 auto;
+	font-family: myFirstFont;
+	padding-left: 3%;
+	font-style: none;
+	
+	
+}
+.top_bar_left{
+	flex:4 0 auto;
+	position: relative;
+	top :25%;
+	padding-right: -10%;
+
+}
+#search_input{
+	margin-left:10%;
+    border-radius: 14px;
+    background-image: url('../pic/magnifying-glass2.png');
+    background-repeat: no-repeat;
+    background-position: left 7px center;
+	margin-top: 6%;
+	margin-bottom:5%;
+	width: 40%;
+	height: 23%;
+	border-style: solid;
+	border-color:  rgb(112,112,112);
+	text-align: center;
+	  
+}
+#search_input:focus, #search_input:hover{
+	margin-left:10%;
+    border-radius: 14px;
+    background-image: url('../pic/magnifying-glass.png');
+    background-repeat: no-repeat;
+    background-position: left 7px center;
+	margin-top: 10%;
+	width: 40%;
+	height: 17%;
+	border-style: solid;
+	border-color: #445de7;
+	text-align: center;
+	  
+}
+.top_bar_right{
+	flex: 2 0 auto;
+	position: relative;
+	display: flex;
+	
+}
+#enter{
+	flex: 1 0 auto;
+	margin-right: 3%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border-radius: 16px;
+	background-color:gray;
+	color: white;
+	border: none;
+	font-family: myFirstFont;
+	height: 30%;
+	width: 30%;	
+}
+#enter:visited,#enter:hover{
+	flex: 1 0 auto;
+	margin-right: 3%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border-radius: 16px;
+	background-color:#445de7;
+	color: white;
+	border: none;
+	font-family: myFirstFont;
+	height: 30%;
+	width: 30%;	
+}
+#register{
+	flex: 2 0 auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-right: 30%;
+    border-radius: 16px;
+    background-color:white;
+    border-style: solid;
+	border-color: #666666;
+	font-family: myFirstFont;
+	height: 30%;
+	color: #666666;
+	
+}
+#register:hover{
+	flex: 2 0 auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-right: 30%;
+    border-radius: 16px;
+    background-color:white;
+    border-style: solid;
+	border-color: #445de7;
+	font-family: myFirstFont;
+	height: 30%;
+	color: #445de7;
+	
+}
+
+
+
+

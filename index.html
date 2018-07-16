@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text-html; charset=utf-8" />
+    <title>My Website </title>
+  <link rel="stylesheet" type="text/css" href="style/about.css"/>
+  <script type="text/javascript", src="js/support.js"> </script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  </head>
+  <body>
+
+  <div class="top_bar" rel="navigation">
+
+    <div class="top_bar_left" >
+      <input id="search_input" type="text" name="search_input"    size="35"> 
+    </div>
+    
+
+    <div class="top_bar_center" >  <h1>clothster</h1>  </div>
+
+    <div class="top_bar_right"> 
+       <input id="enter" type="button" value=" ورود " /> 
+       <input id ="register" type="button" value="عضویت" /> 
+    </div>
+    
+  </div>
+  <div class="navbar" rel="navigation">
+    <a class="topic" id="topic6" href="">برندها</a>
+    <a class="topic" id="topic5" href="">تخفیف</a>
+    <a class="topic" id="topic4" href="">ورزشی</a>
+    <a class="topic" id="topic3" href="">بچه گانه</a>
+    <a class="topic" id="topic2" href="">زنانه</a>    
+    <a class="topic" id="topic1" href="">مردانه</a>    
+  </div>
+
+  <hr color="#EFEFEF" width="90%">
+  <div class=nav2 rel="navigation">
+    <button class="b" id="b6" type="button" >حریم خصوصی</button>
+    <button class="b" id="b5" type="button" >شرایط و ضوابط</button>
+    <button class="b" id="b4" type="button" >شرایط بازگرداندن</button>
+    <button class="b" id="b3" type="button" >سوالات متداول</button>
+    <button class="b" id="b2" type="button" >تماس با ما</button>
+    <button class="b" id="b1" type="button" >درباره ی ما</button>
+  </div>
+
+  <div class="content">
+
+    <div class="why_us">
+        <h6 id="why_us_text">چرا از ما خرید کنید؟</h6>
+        <div class="why_us_pic">  
+          <div id="why_us_pic_text">
+             متن شما اینجا قرار می گیرد
+          </div>         
+        </div>      
+    </div>
+
+
+    <div class="about_us">
+  
+      <div  id="about_us_text">
+        بعد از تجربه خرید اینترنتی بیشتر با سرعت زندگی مدرن همگام شد و توانست خود را با روحیات و نیازهای رو به رشد مشتریان هماهنگ کند. در حالیکه مشغله های روزانه فرصت لذت بردن از اوقات فراغت را کاهش داده است، صرف زمان های طولانی برای انجام سفرهای درون شهری و خرید نیازهای روزانه معنای خود را از دست می دهد. آنچه در فرصت اوقات فراغت
+        فراغت برای افراد در اولویت قرار می گیرد، تفریح، آموزش، ورزش، لذت بردن از علایق شخصی و رفع خستگی های روزانه است. همه این عوامل افراد را مجاب به استفاده از روش های نوین مانند مراجعه به یک فروشگاه اینترنتی در کمترین زمان برای انجام فعالیت های وقت گیر گذشته می کند، تا قبل از دیجی استایل فرآیند استقبال مشتریان از دیجی کالا ثابت کرد این روش از زندگی مورد علاقه طیف عظیمی از افردا است
+      </div>
+ 
+      <div id="about_us2">
+        <div id="hanger_img" ></div>
+        <div>
+          <h5 id="about_us_title">درباره ی ما</h5>
+          <p  id="about_us_text2">
+          توسعه اینترنت روشهای خرید ما را به کلی دگرگون کرده است. منافع موجود در خرید اینترنتی هر روز، تعداد بیشتری از مردم را به تجربه آن و ایجاد تغییر در الگوهای متداول خرید ترغیب می کند. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content2">
+    <div class="news">
+      <div id="pic_news">
+      </div>
+      <div id=text_news >
+        در خبرنامه ما 
+      </div>
+      <div id=text_news >
+        عضو شوید! 
+      </div>
+        <input id="news_input" type="text" name="news_input"  placeholder="آدرس ایمیل خود را وارد کنید" onfocus="placeholder='maryam@outlook.com' "> 
+        <br>
+        <input id="join_news" type="button" value=" عضو شوید " />
+      
+    </div>
+
+    <div class="brands">
+      <button id ="brands_txt" >تمام برند های معتبر را با ما تجربه کنید</button>
+    </div>
+
+  </div>
+
+  <button id ="support" onclick="startchat();">پشتیبانی آنلاین</button>
+
+  <div id="support_chat" >
+  	<div id="id" >
+  		<div id="back">
+  			<button id="button_back" onclick="endchat();"></button>
+  		</div>
+  		<div id="nameandpost" >
+  			<div id="post"></div>
+  			<div id="name"></div>
+  		</div>
+  		<div id="pic_id"></div>
+  	</div>
+  	<div id ="chat">
+  		<!--<div id="item1">
+  			<span>hello</span>
+  			<img width="50px" height="50px" src="./pic/minus.png">  			
+  		</div>-->
+  	</div>
+  	<div id="send">
+  		<input id="chat_input" type="text" name="chat_input"  size="35" placeholder="متن پیام به پشتیبانی..."> 
+  		<button id = "send_button" onclick="send(document.getElementById('chat_input').value);"></button>
+  	</div>
+  </div>
+
+  <div class="footer">
+    <div  id="foot_left">
+      تمامی حقوق این سایت متعلق به دانشگاه امیرکبیر بوده و هرگونه  استفاده از منابع و طراحی های این سایت توسط نهادی خارج از دانشگاه با پیگرد قانونی همراه خواهد بود. 
+    </div>
+
+    <div id="social_network">
+      <h4 id="txt_social">به ما در رسانه های اجتماعی بپیوندید</h4>
+      <div id="logo">
+        <a href="https://www..com" id="facebook1"></a>
+        <a href="https://www..com" id="google1"></a>
+        <a href="https://www..com" id="twitter1"></a>
+        <a href="https://www..com" id="facebook1"></a>
+        <a href="https://www..com" id="google1"></a>
+        <a href="https://www..com" id="twitter1"></a>
+       
+      </div>
+    </div>
+
+    <div id="info">
+      <h4 id="txt_info">اطلاعات ما</h4>
+      <a href="" id="link">درباره ما</a> 
+      <br>
+      <a href="" id="link">تماس با ما</a>
+    </div>
+
+    <div id="facility">
+      <h4 id="txt_facility">خدمات مشتریان</h4>
+      <a href="" id="link">سوالات متداول</a> 
+      <br> 
+      <a href="" id="link">بازگرداندن کالا</a> 
+      <br>
+      <a href="" id="link">شرایط استفاده</a> 
+      <br> 
+      <a href="" id="link">حریم شخصی</a> 
+    </div>
+
+  </div>
+
+
+  </body>
+</html>

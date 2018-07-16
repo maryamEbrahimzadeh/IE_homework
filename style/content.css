@@ -1,0 +1,101 @@
+ @font-face {
+    font-family: myFirstFont;
+    src: url(shabnam/Shabnam-light.woff);
+} 
+.content{
+	display: flex;
+}
+.why_us{
+	flex: 1 0 auto;
+	margin-left: 7%;
+	position: relative;
+	border: solid #EFEFEF 1px;
+	margin-top: 20px;
+	margin-right: 10px; 
+	padding-left: 5px;  
+	padding-bottom: 5px;
+}
+#why_us_text{
+	vertical-align: middle;
+	text-align: center;
+	font-family: myFirstFont ;
+	color: rgb(112,112,112);
+	font-size: 90%;
+	margin: 0 0 0 0 ;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.why_us_pic{
+	vertical-align: middle;
+	background: url('../pic/why_us.png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 310px;
+	height: 220px;
+	margin-left: 5px; 
+	margin-right: 5px;
+	position: relative;
+	
+}
+#why_us_pic_text{
+	border : solid gray 1px;
+	position: absolute;
+	top :110px;
+	left:70px;
+	font-family: myFirstFont ;
+	color: rgb(112,112,112);
+	background-color:  white;
+}
+
+.about_us{
+	flex:30 0 auto;
+	border: solid 1px #EFEFEF  ;
+	margin-top: 20px;
+	margin-left: 5px; 
+	padding-bottom: 5px;
+	display: flex;
+    width: 50%;
+	margin-right: 7%; 
+	
+}
+#about_us_text{
+	font-family: myFirstFont ;
+	text-align: right;
+	font-size: 15px;
+	padding-left:5%;
+	padding-right: 20px;
+	padding-top: 20px;
+	color: rgb(112,112,112);
+	width:100%;
+}
+#about_us2{
+	width: 240px;
+	flex-grow: 0;
+    flex-shrink: 0;
+	margin-right: 10px;
+}
+#hanger_img{
+	background: url('../pic/hanger.png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 227px;
+	height: 122px;
+}
+#about_us_title{
+	text-align: right;
+	margin-right: 12px;
+	font-size: 20px;
+	margin-bottom:10px;
+	margin-top: 10px;
+	color:#A2A2A2;
+	font-family: myFirstFont ;
+
+}
+#about_us_text2{
+	font-family: myFirstFont ;
+	text-align: right;
+	color: rgb(112,112,112);
+	font-size: 15px;
+	width: 227px;
+	margin-top: 0px;
+}

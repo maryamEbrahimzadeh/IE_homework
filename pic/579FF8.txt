@@ -1,0 +1,11 @@
+nav blue #445de7
+nav gray icon down #666666
+email blue  #3b55e6
+button up  #666666
+font #9191919
+footer back  #efefef
+
+
+button back blue  icon down blue #3b55e6
+
+font light rgb(112,112,112)
